@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', 'Poppins';
+}
+section{
+    height: 500px;
+}
+.header-area{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;    
+    
+}
+.half-width{
+    width:38%;
+    float: left;
+    margin-left: 10%;
+    padding-left: 2%;
+}
+.header-area img{
+    margin-right: 40px;
+}
+img{
+    width: 75%;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 45px;
+    color: brown;
+
+}
+p{
+    font-size: 18px;
+    font-family: Poppins;
+    margin-bottom: 20px;
+    margin-top: 17px;
+    color: dimgray;
+}
+
+a{
+    text-decoration: none;
+    background: brown;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.biography-area{
+    margin-top: 150px;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.biography-area,
+ .half-width{
+     margin-top: 30px;
+
+}
+#bio{
+    margin-right: 40px;
+}
+.latest-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center ;
+}
+.latest-area
+h2{
+    text-align: center;
+    margin: 80px 0px;
+    color: black;
+
+}
+.latest-area img{
+    width: 28%;
+    height: auto;
+    float: left;
+    margin-left: 4%;
+    
+}
+.client-area{
+    padding-top: 40px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.client-area h2{
+    color: black;
+    font-weight: 500;
+}
+.client-area h5{
+    font-family: Poppins;
+    color: #080101;
+    font-weight: 600;
+    padding-top: 50px;
+    margin-bottom: 8px;
+}
+.client-area h6{
+    color: silver;
+    font-family: Poppins;
+    margin-top: 10px 0px;
+}
+.email-box{
+    margin-bottom: 80px;
+    padding-top: 80px;
+}
+
+.email-box button{
+    background: linear-gradient(45deg, #f17240, rgb(173, 35, 10));
+    padding: 20px 100px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    border: none;
+    line-height: 30px;
+    clear: both;
+}
+.rights{
+    font-size: 10px;
+}
+footer{
+    width: 40%;
+    margin: auto;
+}
+footer a{
+    background: none;
+    
+    
+}
+footer a:hover{
+    border-bottom: 1px solid #740404;
+}
+footer img{
+    width: 8%;
+    padding-bottom: 0;
+    
+}
+.rights{
+    margin-top: 40px;
+}
