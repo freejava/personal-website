@@ -5,7 +5,7 @@
     font-family: 'MuseoModerno', 'Poppins';
 }
 section{
-    height: 500px;
+    height: 650px;
 }
 .header-area{
     background-image: url(images/header-bg.png);
@@ -15,17 +15,21 @@ section{
     text-align: center;    
     
 }
+#intro{
+    margin-top: 10%;
+}
 .half-width{
-    width:38%;
+    width:40%;
     float: left;
-    margin-left: 10%;
-    padding-left: 2%;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-top: 16%;
 }
 .header-area img{
     margin-right: 40px;
 }
 img{
-    width: 75%;
+    width: 90%;
 }
 h1{
     font-size: 30px;
