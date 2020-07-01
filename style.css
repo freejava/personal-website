@@ -29,7 +29,8 @@ section{
     margin-right: 40px;
 }
 img{
-    width: 80%;
+    width: 95%;
+    margin: 40px 0px;
 }
 h1{
     font-size: 30px;
@@ -42,7 +43,7 @@ h2{
 p{
     font-size: 18px;
     font-family: Poppins;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 17px;
     color: dimgray;
 }
@@ -70,6 +71,20 @@ a{
 }
 #bio{
     margin-right: 40px;
+    margin-top: 8%;
+}
+
+.biography-area img{
+    margin-top: 20px;
+    width: 72%;
+}
+.biography-area p{
+    font-size: 15px;
+    font-family: Poppins;
+    margin-bottom: 40px;
+    margin-top: 17px;
+    color: dimgray;
+
 }
 .latest-area{
     background-image: url(images/latest-work-bg.png);
